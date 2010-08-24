@@ -1,0 +1,195 @@
+/* it's a good idea to define a height and width for quickFlip */
+
+/*
+body {
+    min-width: 600px;
+}
+*/
+
+.quickFlip {
+    height: 216px;
+    width: 322px;
+}
+
+.quickFlip2 {
+    height: 300px;
+    width: 250px;
+    float: left;
+    /* margin-right: 9%; */
+}
+
+/* the rest of this is irrelevent */
+
+/*
+H1, H2 {
+    float: left;
+    padding-right: 15px;
+    line-height: 32px;
+}
+*/
+
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.redPanel, .blackPanel {
+    text-align: center;
+}
+
+/**** image panels ****/
+
+.quickFlip {
+    font-family: "Trebuchet MS", Verdana, Sans-serif, sans;
+    /*color: #4F352C;*/
+    font-size: 13px;
+    position: relative;
+}
+
+.quickFlip .blackPanel {
+    background: url('../img/flip-panel-brown.png') no-repeat 0 0 #FFF;
+    position: absolute;
+}
+
+.quickFlip .redPanel {
+    background: url('../img/flip-panel.png') no-repeat 0 0 #FFF;
+    position: absolute;
+}
+
+.quickFlip P {
+    padding: 5px;
+    margin:0 30px 10px 30px;
+}
+
+.quickFlip p.panel-content {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.quickFlip H3, .quickFlip H4 {
+    padding: 0;
+    margin: 0 35px;
+}
+
+.quickFlip h3 {
+    text-align: left;
+    font-size:24px;
+    line-height:24px;
+}
+
+.quickFlip .redPanel h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.quickFlip .first {
+    margin-top: 30px;
+}
+
+.quickFlip EM {
+    display: block;
+    padding: 0;
+}
+
+.quickFlip A.quickFlipCta {
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    width: 210px;
+    font-size: 15px;
+    outline: none;
+}
+
+/*** CSS only panels ****/
+
+.quickFlip2 .blackPanel {
+    background-color: #FFD993;
+    color: brown;
+    border: 1px outset #A61C14;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-align:left;
+}
+
+.quickFlip2 .redPanel {
+    background-color: #E299B8;
+    background-image:url(../img/squirrel.png);
+    color: #FFF;
+    border: 3px outset #4f6417;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.quickFlip2 .redPanel a {
+    color: #FFF;
+}
+
+.quickFlipCta {
+	cursor: pointer;
+	cursor:pointer;
+	margin:20px 20px;
+}
+
+/* customize edit */
+
+h2.question {
+	margin:0;
+	font-family:'Comic Sans MS',cursive;
+	margin:0 0 1px;
+	overflow:hidden;
+	padding-left:10px;
+}
+
+div.intro {
+	position:relative;	
+}
+
+div.intro.what{
+	z-index:999;
+}
+
+div.intro.why{
+	z-index:500;
+	left:5px;
+	/*
+	left:-120px;
+	top:-30px;
+	*/	
+}
+
+div.intro.how{
+	z-index:100;
+	left:10px;
+	/*
+	left:-240px;
+	top:-60px;
+	*/	
+}
+
+div.intro.why .blackPanel ul{
+	padding:0 20px;
+}
+
+div.intro div.quickFlip2 .redPanel p.quickFlipCta{
+	font-size:18px;
+	font-weight:bold;
+	padding:0 0 250px;
+	text-shadow:13px 10px 4px black;	
+}
+
+p a.join {
+	background-color:#97CD39;
+	border:1px solid #000000;
+	color:#FFFFFF;
+	display:block;
+	font-size:20px;
+	margin:140px auto 3px;
+	padding:4px;
+	text-align:center;
+	width:9.5em;
+	
+	-moz-box-shadow:8px 8px 8px gray;
+	-webkit-box-shadow:8px 8px 8px gray;
+	box-shadow:8px 8px 8px gray;
+}
