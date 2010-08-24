@@ -1,8 +1,13 @@
 realize a dream social service. 
 CakePHP 1.2 Based.
+http://listter.jp/
 
 database schema file:
 /app/config/sql/listter_db_dump.sql
+
+licens:
+GPL v3
+
 
 read first CakePHP manual.
 http://cakephp.org/
