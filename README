@@ -5,11 +5,10 @@ http://listter.jp/
 database schema file:
 /app/config/sql/listter_db_dump.sql
 
-<<<<<<< HEAD
+
 license:
 GPL v3
-=======
->>>>>>> remotes/origin/master
+
 
 
 
