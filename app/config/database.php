@@ -83,8 +83,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'ryota3610',
-		'database' => 'list_com',
+		'password' => 'dummy_password',
+		'database' => 'database_name',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
