@@ -5,8 +5,9 @@ http://listter.jp/
 database schema file:
 /app/config/sql/listter_db_dump.sql
 
-licens:
+license:
 GPL v3
+
 
 
 read first CakePHP manual.
