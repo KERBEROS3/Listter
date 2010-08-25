@@ -32,7 +32,7 @@ if(document.images)document.capcha.src = '/users/capcha_img/' + count + '.png';
 	<div class="capcha"><img src="<?php echo $html->url('/users/capcha_img/0.png') ?> " alt="認証用の英数字" name="capcha" />
 	<a href="javascript:action()" tabindex="-1">別の画像にする</a>
 	<?php
-		echo $form->input('capcha',array('label'=>'上記の文字を入力してください'));
+		echo $form->input('capcha',array('label'=>'上記の文字を入力してください(スペース無し・大文字小文字どちらでも可)'));
 	?>
 	</div>
 	

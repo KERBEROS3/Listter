@@ -167,6 +167,7 @@ class UsersController extends AppController {
 		$txt = str_replace('z','Z',$txt);
 		$txt = str_replace('g','G',$txt);
 		$txt = str_replace('9','G',$txt);
+		$txt = strtoupper($txt);	//captcha簡単にするために全部大文字に
 		
 		$this->Session->write('image_auth_string', $txt);
 		

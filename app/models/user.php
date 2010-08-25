@@ -223,7 +223,8 @@ class User extends AppModel {
 	function check_capcha(){
 		//var_dump($a);
 		//var_dump($b);
-		return ($this->data['User']['capcha'] === $this->data['User']['check_capcha']);
+		//大文字でも小文字でも行けるように、どっちも大文字にしてチェック
+		return ( strtoupper($this->data['User']['capcha']) === strtoupper($this->data['User']['check_capcha']) );
 		//return true;
 		//session_start();
 		//var_dump('<hr>');
