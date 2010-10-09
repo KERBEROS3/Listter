@@ -10,7 +10,7 @@ GPL v3
 
 Use etc:
 CakePHP
-Twitter API
+Twitter API ( abraham / twitteroauth : http://github.com/abraham)
 jQuery
 Prototype(JS)
 
