@@ -5,11 +5,14 @@ http://listter.jp/
 database schema file:
 /app/config/sql/listter_db_dump.sql
 
-
 license:
 GPL v3
 
-
+Use etc:
+CakePHP
+Twitter API
+jQuery
+Prototype(JS)
 
 
 read first CakePHP manual.
