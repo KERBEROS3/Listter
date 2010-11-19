@@ -774,6 +774,9 @@ div.tasks.view h2#task_title:hover a{
 	visibility:visible;
 }
 
+#burn{
+	margin-left:25px;	
+}
 
 
 /* ロジックにより非表示にするセレクタ */

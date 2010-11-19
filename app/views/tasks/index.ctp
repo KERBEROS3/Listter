@@ -713,25 +713,28 @@ foreach ($tasks as $task):
 								</div>
 							</li>
 							
+							<!-- やることリスト表示部分スタート -->
+							<!-- 
 							<li id="pieces">
-							
-								<!-- やることリスト表示部分スタート -->
+							 -->
+								
 								<!--ここにやる事リスト追加フォームを設置予定 -->
 								<?php
+									/*
 									//自分のタスクで、かつPiece(やる事)があれば。
 									if( !isset($loginUserTask) && $task['Piece'] ){
 										echo '<ul>';
 										foreach($task['Piece'] as $piece){
 											echo "<li>{$piece['comment']}</li>";
 										}
-									
-									
 										echo '</ul>';
 									}
-								?>
-								<!-- やることリスト表示部分エンド -->
-							
+									*/
+								?>							
+							<!-- 
 							</li>
+							 -->
+							<!-- やることリスト表示部分エンド -->
 						
 					</ul>
 					<!-- おうえんコメント表示部分エンド -->
@@ -811,9 +814,12 @@ foreach ($tasks as $task):
 					false
 				);
 			}
+			//var_dump($css_delete);
+			$css_delete_plus = $css_delete;
+			$css_delete_plus['id'] = 'burn';
 			echo $html->link($html->image("burn.png", array("alt" => __("ねがいを完全に削除",true) ,"title" => __("ねがいを完全に削除",true))),
 									array('action'=>'delete', $task['Task']['id']),
-									$css_delete,
+									$css_delete_plus ,
 									//sprintf(__('[%s]\nAre you sure you want to delete?', true), $task['Task']['task']),
 									sprintf(__('本当にこの「ねがい」を削除して大丈夫ですか?\nいままでの「みちのり」も含めて元には戻せません。\n\n「%s」', true), $task['Task']['task']),
 									false
