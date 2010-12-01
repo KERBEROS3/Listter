@@ -596,6 +596,7 @@ li.dir ul li .comment.support{
 #support input[type="text"]{
 	width:400px;
 	height:1.3em;
+	border-width: 1px;
 }
 
 
