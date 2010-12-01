@@ -333,6 +333,7 @@ input[type=checkbox] {
 	float: left;
 	margin: 4px 6px 7px 2px;
 	width: auto;
+	border: medium none;
 }
 input[type=radio] {
 	float:left;
