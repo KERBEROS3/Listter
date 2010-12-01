@@ -307,11 +307,19 @@ input, textarea {
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	padding: 2px;
 	width: 100%;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border: 2px inset #666666;
 }
 select {
 	clear: both;
 	font-size: 120%;
 	vertical-align: text-bottom;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border: 2px inset #666666;
 }
 select[multiple=multiple] {
 	width: 100%;
